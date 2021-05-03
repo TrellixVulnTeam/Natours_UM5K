@@ -273,11 +273,20 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card__picture--1 {
-      background-image: linear-gradient(to bottom right, #ffb900, #ff7730), url(../img/nat-5.jpg); }
+      background-image: linear-gradient(to bottom right, #ffb900, #ff7730), url(../img/nat-5-min.jpg); }
+      @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
+        .card__picture--1 {
+          background-image: linear-gradient(to bottom right, #ffb900, #ff7730), url(../img/nat-5.jpg); } }
     .card__picture--2 {
-      background-image: linear-gradient(to bottom right, #7ed56f, #28b485), url(../img/nat-6.jpg); }
+      background-image: linear-gradient(to bottom right, #7ed56f, #28b485), url(../img/nat-6-min.jpg); }
+      @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
+        .card__picture--2 {
+          background-image: linear-gradient(to bottom right, #7ed56f, #28b485), url(../img/nat-6.jpg); } }
     .card__picture--3 {
-      background-image: linear-gradient(to bottom right, #2998ff, #5643fa), url(../img/nat-7.jpg); }
+      background-image: linear-gradient(to bottom right, #2998ff, #5643fa), url(../img/nat-7-min.jpg); }
+      @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
+        .card__picture--3 {
+          background-image: linear-gradient(to bottom right, #2998ff, #5643fa), url(../img/nat-7.jpg); } }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -721,10 +730,12 @@ body {
     @media only screen and (max-width: 56.25em) {
       .row:not(:last-child) {
         margin-bottom: 6rem; } }
+  @media only screen and (max-width: 75em) {
+    .row {
+      padding: 0 3rem; } }
   @media only screen and (max-width: 56.25em) {
     .row {
-      max-width: 50rem;
-      padding: 0 3rem; } }
+      max-width: 50rem; } }
   .row::after {
     content: "";
     display: table;
@@ -919,7 +930,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4-min.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
@@ -928,6 +939,9 @@ body {
   @media only screen and (max-width: 56.25em) {
     .section-features {
       padding: 10rem 0; } }
+  @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
+    .section-features {
+      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg); } }
 
 .section-tours {
   background-color: #f7f7f7;
@@ -952,7 +966,7 @@ body {
       padding: 10rem 0; } }
 
 .book {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10-min.jpg);
   background-size: cover;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
@@ -962,6 +976,9 @@ body {
   @media only screen and (max-width: 56.25em) {
     .book {
       background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nat-10.jpg); } }
+  @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
+    .book {
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg); } }
   .book__form {
     width: 50%;
     padding: 6rem; }
